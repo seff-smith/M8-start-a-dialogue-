@@ -77,12 +77,25 @@ mouse_filter = 0
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_horizontal = 3
+size_flags_vertical = 2
 bbcode_enabled = true
-text = "Hello World"
+text = "Hello World. this this so swag for real!!!!!"
 fit_content = true
 
 [node name="ActionButtonsVBoxContainer" type="VBoxContainer" parent="VBoxContainer"]
 layout_mode = 2
+
+[node name="Button" type="Button" parent="VBoxContainer/ActionButtonsVBoxContainer"]
+layout_mode = 2
+text = "test button"
+
+[node name="Button2" type="Button" parent="VBoxContainer/ActionButtonsVBoxContainer"]
+layout_mode = 2
+text = "test button"
+
+[node name="Button3" type="Button" parent="VBoxContainer/ActionButtonsVBoxContainer"]
+layout_mode = 2
+text = "test button"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 unique_name_in_owner = true
